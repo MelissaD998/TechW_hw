@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font: 100% Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.main {
+  background-image: url("/assets/img/beachshowcase.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding: 0 20px;
+  color: #926239;
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 1.2;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.main p {
+  font-size: 20px;
+  text-align: center;
+}
+
+.button {
+  font-size: 19px;
+  color: #926239;
+  text-decoration: none;
+  border: #926239 1px solid;
+  padding: 15px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #926239;
+  color: #fff;
+}
+
+.brown, .beige {
+  line-height: 1.6;
+  font-size: 17px;
+  padding: 20px;
+}
+
+.brown {
+  background-color: #926239;
+  color: #fff;
+  text-align: center;
+}
+
+.beige {
+  background-color: #f4f4f4;
+  color: #926239;
+  text-align: center;
+}
+
+.section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 17px;
+}
+
+.section1, .section3 {
+  background: #926239;
+  color: #fff;
+  line-height: 1.6;
+}
+
+.section1 {
+  padding: 20px;
+}
+
+.section2 {
+  padding: 20px;
+  background-color: #fff;
+  color: #926239;
+  line-height: 1.6;
+}
+
+.section3 {
+  padding: 20px;
+}
