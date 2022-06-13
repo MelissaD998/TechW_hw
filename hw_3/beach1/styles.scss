@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$font-stack: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+body {
+    font: 100% $font-stack;
+ }
+
+ 
+ .main 
+     {
+    background-image: url("/assets/img/beachshowcase.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+    color: #926239;
+    
+}
+
+h1 {
+     font-size: 50px;
+     line-height: 1.2;
+     margin-bottom: 10px;
+     text-align: center;
+ }
+
+.main p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.button {
+    font-size: 19px;
+    color: #926239;
+    text-decoration: none;
+    border: #926239 1px solid;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #926239;
+    color: #fff;
+}
+
+%message-shared {
+    line-height: 1.6;
+    font-size: 17px;
+    padding: 20px;
+  }
+
+.brown {
+    background-color: #926239;
+    color: #fff;
+    text-align: center;
+    @extend %message-shared
+}
+
+.beige {
+    background-color: #f4f4f4;
+    color: #926239;
+    text-align: center;
+    @extend %message-shared
+}
+
+.section {
+    display: flex;
+    font-size: 17px;
+}
+
+%section{
+    background: #926239;
+    color: #fff;
+    line-height: 1.6;
+}
+
+.section1 {
+    padding: 20px;
+    @extend %section
+}
+
+.section2 {
+    padding: 20px;
+    background-color: #fff;
+    color: #926239;
+    line-height: 1.6;
+}
+
+.section3 {
+    padding: 20px;
+    @extend %section
+}
+
+
+
+
