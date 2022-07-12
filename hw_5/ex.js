@@ -45,3 +45,9 @@ let arr = [1, 2, 3];
 let sum = arr.reduce((a,b) => a + b);
 
 console.log(sum);
+
+
+
+
+
+
