@@ -1,0 +1,1 @@
+console.log(document.querySelectorAll('.red').forEach(intem => intem.className = 'blue'))

@@ -1,0 +1,43 @@
+<!--  1)	Create HTML document and add script. Create simple html structure with paragraph. Store the <p> element in a variable,
+     then change the contents of the <p> element via DOM manipulations. -->
+
+<!DOCTYPE html>
+
+<body>
+  <p id="p1"> Hi! </p>
+
+  <script>
+    let element = document.getElementById("p1");
+    element.innerHTML = "Hello";
+  </script>
+</body>
+
+</html>
+
+
+
+<!-- 3)	Create a page welcome message : 
+1. Get the user name in the input field 
+2. When the button is pressed add an event that get the user name (value from input).  -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title></title>
+</head>
+
+<body>
+  <label>What is your name?</label>
+  <input type="text" id="name">
+  <button type="button" onclick="onSubmit()">Submit</button>
+  <p>Welcome to the site <span id="submit_name"></span></p>
+
+
+  <script>
+    function onSubmit() {
+      const input_name = document.getElementById('name').value
+      const submit_name = document.getElementById('submit_name').innerHTML = input_name
+    }
+  </script>
+</body>
